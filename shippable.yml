@@ -1,6 +1,9 @@
 # Language setting http://docs.shippable.com/ci/languages/node/
 language: node_js
 
+node_js:
+  - 5.12.0
+
 runtime:
   nodePool: shippable_shared_aarch64
   
